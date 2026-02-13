@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery - Week 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Collection</h1>
+        <div class="gallery">
+            <img src="https://picsum.photos/400/400?random=1" onclick="openModal(this.src)">
+            <img src="https://picsum.photos/400/400?random=2" onclick="openModal(this.src)">
+            <img src="https://picsum.photos/400/400?random=3" onclick="openModal(this.src)">
+            <img src="https://picsum.photos/400/400?random=4" onclick="openModal(this.src)">
+            <img src="https://picsum.photos/400/400?random=5" onclick="openModal(this.src)">
+            <img src="https://picsum.photos/400/400?random=6" onclick="openModal(this.src)">
+        </div>
+    </div>
+
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
